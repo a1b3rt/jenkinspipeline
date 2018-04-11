@@ -4,8 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-            }
-        }
-    }
+		println "wtf ???111!!!"
+		sh 'printenv'
+    	    }
+	}
+    }	
 }
 
